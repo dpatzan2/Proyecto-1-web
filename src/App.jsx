@@ -1,11 +1,11 @@
-import { useState } from 'react'
-
+// src/App.jsx
+import Calculator from './components/Calculator'
 
 function App() {
-
-
   return (
-    <h1 class="text-3xl font-bold underline">    Hello world!  </h1>
+    <div className="min-h-screen w-full flex justify-center items-center bg-gradient-to-r from-blue-500 to-cyan-500 bg-opacity-80 relative overflow-hidden">
+      <Calculator />
+    </div>
   )
 }
 
