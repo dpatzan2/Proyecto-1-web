@@ -1,104 +1,12 @@
-# 🧮 Proyecto Calculadora Web
+# React + Vite
 
-Este proyecto es una calculadora web interactiva desarrollada con React. Permite realizar operaciones aritméticas básicas como suma, resta, multiplicación, división, cambio de signo y manejo de decimales, proporcionando una experiencia de usuario intuitiva y responsiva.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## ✨ Características
+Currently, two official plugins are available:
 
-- 🖥️ Interfaz amigable y responsiva.
-- ➕➖✖️➗ Operaciones básicas: suma, resta, multiplicación, división.
-- 🔢 Soporte para números decimales.
-- 🧹 Botón para limpiar la pantalla (`C`).
-- 🔄 Cambio de signo (`+/-`).
-- 🧪 Pruebas automatizadas con Jest y React Testing Library.
-- 📚 Documentación visual de componentes con Storybook.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 🛠️ Tecnologías Utilizadas
+## Expanding the ESLint configuration
 
-- [⚛️ React](https://reactjs.org/)
-- [🃏 Jest](https://jestjs.io/)
-- [🧪 React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
-- [📚 Storybook](https://storybook.js.org/)
-- 💻 JavaScript (ES6+)
-- 🎨 CSS (opcional, según implementación)
-
-## 🚀 Instalación
-
-1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/tu-usuario/proyecto-1.git
-   cd proyecto-1
-   ```
-
-2. Instala las dependencias:
-   ```bash
-   npm install
-   ```
-
-## ▶️ Uso
-
-Para iniciar la aplicación en modo desarrollo:
-
-```bash
-npm run dev
-```
-
-Abre [http://localhost:3000](http://localhost:3000) para ver la aplicación en tu navegador.
-
-## 📚 Storybook
-
-Para visualizar la documentación interactiva de los componentes con Storybook:
-
-```bash
-npm run storybook
-```
-
-Abre [http://localhost:6006](http://localhost:6006) para ver Storybook en tu navegador.
-
-## 🧪 Pruebas
-
-Para ejecutar las pruebas automatizadas:
-
-```bash
-npm test
-```
-
-Las pruebas cubren la funcionalidad principal de la calculadora, asegurando que las operaciones y la interfaz funcionen correctamente.
-
-## 📁 Estructura del Proyecto
-
-```
-proyecto-1/
-├── .storybook/
-│   ├── main.js
-│   ├── preview.js
-│   └── ...
-├── node_modules/
-├── public/
-│   └── index.html
-├── src/
-│   ├── __tests__/
-│   │   └── Calculator.test.jsx
-│   ├── components/
-│   │   └── Calculator.jsx
-│   ├── stories/
-│   │   └── Calculator.stories.jsx
-│   ├── App.jsx
-│   ├── index.js
-│   └── ...
-├── .gitignore
-├── package.json
-├── README.md
-└── ...
-```
-
-- `.storybook/`: Configuración de Storybook.
-- `src/components/`: Componentes principales de la aplicación.
-- `src/__tests__/`: Pruebas unitarias.
-- `src/stories/`: Historias de Storybook para los componentes.
-- `public/`: Archivos públicos y HTML base.
-- `package.json`: Dependencias y scripts del proyecto.
-
----
-
-Desarrollado por Diego Patzán.
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

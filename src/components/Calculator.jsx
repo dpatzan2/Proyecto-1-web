@@ -4,7 +4,16 @@ import Button from './Button'
 import Display from './Display'
 
 const Calculator = () => {
-  const {currentValue,previousValue,clearAll,clear,toggleSign,addDigit,addDecimal,selectOperation} = useCalculator()
+  const {
+    currentValue,
+    previousValue,
+    clearAll,
+    clear,
+    toggleSign,
+    addDigit,
+    addDecimal,
+    selectOperation
+  } = useCalculator()
 
   return (
     <div className="grid grid-cols-4 bg-black p-4 rounded-3xl shadow-xl w-[320px]">
