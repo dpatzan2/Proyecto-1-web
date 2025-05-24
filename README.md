@@ -1,6 +1,6 @@
 # 🧮 Proyecto Calculadora Web
 
-Este proyecto es una calculadora web interactiva desarrollada con React. Permite realizar operaciones aritméticas básicas como suma, resta, multiplicación, división, cambio de signo y manejo de decimales, proporcionando una experiencia de usuario intuitiva y responsiva.
+Este proyecto es una calculadora web interactiva desarrollada con React, permite realizar operaciones aritméticas básicas como suma, resta, multiplicación, división, cambio de signo y manejo de decimales, proporcionando una experiencia de usuario intuitiva y responsiva.
 
 ## ✨ Características
 
@@ -19,13 +19,13 @@ Este proyecto es una calculadora web interactiva desarrollada con React. Permite
 - [🧪 React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 - [📚 Storybook](https://storybook.js.org/)
 - 💻 JavaScript (ES6+)
-- 🎨 CSS (opcional, según implementación)
+- 🎨 Tailwind
 
 ## 🚀 Instalación
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/proyecto-1.git
+   git clone https://github.com/dpatzan2/Proyecto-1-web.git
    cd proyecto-1
    ```
 
@@ -42,7 +42,7 @@ Para iniciar la aplicación en modo desarrollo:
 npm run dev
 ```
 
-Abre [http://localhost:3000](http://localhost:3000) para ver la aplicación en tu navegador.
+Abre [http://localhost:5173](http://localhost:57173) para ver la aplicación en tu navegador.
 
 ## 📚 Storybook
 
@@ -78,10 +78,13 @@ proyecto-1/
 ├── src/
 │   ├── __tests__/
 │   │   └── Calculator.test.jsx
+│   |   └── ...
 │   ├── components/
 │   │   └── Calculator.jsx
+│   |   └── ...
 │   ├── stories/
 │   │   └── Calculator.stories.jsx
+│   |   └── ...
 │   ├── App.jsx
 │   ├── index.js
 │   └── ...
