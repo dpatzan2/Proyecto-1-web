@@ -1,3 +1,6 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+
 const Button = ({ children, onClick, className, value, colSpan = 1 }) => {
   let buttonClasses = "flex items-center justify-center text-2xl rounded-full h-14 w-14 m-1 font-medium";
   
@@ -24,5 +27,13 @@ const Button = ({ children, onClick, className, value, colSpan = 1 }) => {
     </button>
   )
 }
+
+Button.propTypes = {
+  children: PropTypes.node.isRequired,
+  onClick: PropTypes.func.isRequired,
+  className: PropTypes.string,
+  value: PropTypes.any,
+  colSpan: PropTypes.number
+};
 
 export default Button

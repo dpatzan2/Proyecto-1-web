@@ -1,3 +1,4 @@
+import React from 'react'
 import { useCalculator } from '../hooks/useCalculator'
 import Button from './Button'
 import Display from './Display'

@@ -1,3 +1,6 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+
 const Display = ({ previousValue, currentValue }) => {
   return (
     <div className="col-span-4 bg-gray-800 rounded-3xl p-4 m-2 mb-4 flex flex-col items-end justify-end h-28">
@@ -6,5 +9,10 @@ const Display = ({ previousValue, currentValue }) => {
     </div>
   )
 }
+
+Display.propTypes = {
+  previousValue: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  currentValue: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+};
 
 export default Display
