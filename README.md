@@ -103,7 +103,7 @@ proyecto-1/
 
 ---
 
-Diseño inspirado en [https://github.com/dpatzan2/IN5BM-Calculadora-DiegoPatzan](Calculadora)
+Diseño inspirado en [Calculadora](https://github.com/dpatzan2/IN5BM-Calculadora-DiegoPatzan)
 
 ---
 
