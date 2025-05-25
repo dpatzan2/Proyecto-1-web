@@ -19,17 +19,17 @@ Este proyecto es una calculadora web interactiva desarrollada con React, permite
 - [🧪 React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 - [📚 Storybook](https://storybook.js.org/)
 - 💻 JavaScript (ES6+)
-- 🎨 Tailwind
+- 🎨 TailwindCSS
 
 ## 🚀 Instalación
 
-1. Clona este repositorio:
+1. Clonar este repositorio:
    ```bash
    git clone https://github.com/dpatzan2/Proyecto-1-web.git
    cd proyecto-1
    ```
 
-2. Instala las dependencias:
+2. Instalar las dependencias:
    ```bash
    npm install
    ```
@@ -100,6 +100,10 @@ proyecto-1/
 - `src/stories/`: Historias de Storybook para los componentes.
 - `public/`: Archivos públicos y HTML base.
 - `package.json`: Dependencias y scripts del proyecto.
+
+---
+
+Diseño inspirado en [https://github.com/dpatzan2/IN5BM-Calculadora-DiegoPatzan](Calculadora)
 
 ---
 
