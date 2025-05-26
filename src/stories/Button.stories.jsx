@@ -79,3 +79,12 @@ export const ToggleSign = {
     colSpan: 1,
   },
 }
+
+export const Modulo = {
+  args: {
+    children: '%',
+    className: 'operador',
+    value: 'modulo',
+    colSpan: 1,
+  },
+}

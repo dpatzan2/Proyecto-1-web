@@ -43,6 +43,9 @@ export const OperatorButtons = {
       <Button className="operador" value="dividir" onClick={() => console.log('÷')}>
         ÷
       </Button>
+      <Button className="operador" value="modulo" onClick={() => console.log('%')}>
+        %
+      </Button>
       <Button className="operador" value="igual" onClick={() => console.log('=')}>
         =
       </Button>

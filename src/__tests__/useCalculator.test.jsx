@@ -29,4 +29,27 @@ describe('useCalculator Hook', () => {
     expect(result.current.currentValue).toBe('0')
   })
 
+  test('performs modulo operation correctly', () => {
+    const { result } = renderHook(() => useCalculator())
+    
+    act(() => {
+      result.current.addDigit('1')
+      result.current.addDigit('0')
+    })
+    
+    act(() => {
+      result.current.selectOperation('modulo')
+    })
+    
+    act(() => {
+      result.current.addDigit('3')
+    })
+    
+    act(() => {
+      result.current.selectOperation('igual')
+    })
+    
+    expect(result.current.currentValue).toBe('1')
+  })
+
 })

@@ -35,4 +35,17 @@ describe('Calculator Edge Cases', () => {
     const errorText = screen.getByText('ERROR')
     expect(errorText).toBeInTheDocument()
   })
+
+  test('performs modulo operation', () => {
+    render(<Calculator />)
+    
+    fireEvent.click(screen.getByRole('button', { name: '1' }))
+    fireEvent.click(screen.getByRole('button', { name: '0' }))
+    fireEvent.click(screen.getByRole('button', { name: '%' }))
+    fireEvent.click(screen.getByRole('button', { name: '3' }))
+    fireEvent.click(screen.getByRole('button', { name: '=' }))
+    
+    const resultText = screen.getByText('1')
+    expect(resultText).toBeInTheDocument()
+  })
 })

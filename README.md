@@ -5,7 +5,7 @@ Este proyecto es una calculadora web interactiva desarrollada con React, permite
 ## ✨ Características
 
 - 🖥️ Interfaz amigable y responsiva.
-- ➕➖✖️➗ Operaciones básicas: suma, resta, multiplicación, división.
+- ➕➖✖️➗📐 Operaciones básicas: suma, resta, multiplicación, división, módulo.
 - 🔢 Soporte para números decimales.
 - 🧹 Botón para limpiar la pantalla (`C`).
 - 🔄 Cambio de signo (`+/-`).

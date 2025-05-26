@@ -1,5 +1,6 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import { ButtonPropTypes } from '../types/propTypes';
+
 
 const Display = ({ previousValue, currentValue }) => {
   return (
@@ -8,11 +9,6 @@ const Display = ({ previousValue, currentValue }) => {
       <div className="text-3xl text-white">{currentValue}</div>
     </div>
   )
-}
-
-Display.propTypes = {
-  previousValue: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-  currentValue: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
-};
+}; Display.propTypes = ButtonPropTypes
 
 export default Display
